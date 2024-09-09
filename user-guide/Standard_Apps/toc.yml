@@ -227,6 +227,8 @@ items:
                 topicUid: PO_Managing_Teams
               - name: Managing organizations
                 topicUid: PO_Managing_Organizations
+          - name: Scheduling
+            topicUid: Scheduling
   - name: Monitoring & Management Solutions
     topicUid: Monitoring_Solutions
     items:

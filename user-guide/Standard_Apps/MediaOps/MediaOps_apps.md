@@ -19,4 +19,7 @@ The MediaOps low-code apps are categorized into two main groups:
   <div class="column">
     <a href="/user-guide/Standard_Apps/MediaOps/Apps/People_Organizations.html" title="People & Organizations" target="_self"><img src="~/user-guide/images/People_Organizations.svg" style="width:100%"></a>
   </div>
+  <div class="column">
+    <a href="/user-guide/Standard_Apps/MediaOps/Apps/Scheduling.html" title="Scheduling" target="_self"><img src="~/user-guide/images/Scheduling.svg" style="width:100%"></a>
+  </div>
 </div>
