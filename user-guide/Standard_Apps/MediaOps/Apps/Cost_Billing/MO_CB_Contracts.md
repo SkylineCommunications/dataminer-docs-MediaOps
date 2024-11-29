@@ -41,7 +41,7 @@ The Contract's Overview page is a great starting point to know what is going on.
 
 <img src="~/user-guide/images/mo_cb_ContractOverview.png">
 
-The main way to manage your contracts is done in the "List" page. It can be accessed from the Contract's Overview by clickin on the "List" button on the top left corner.
+The main way to manage your contracts is done in the "List" page. It can be accessed from the Contract's Overview by clicking on the "List" button on the top left corner.
 
 <img src="~/user-guide/images/mo_cb_ContractList.png">
 

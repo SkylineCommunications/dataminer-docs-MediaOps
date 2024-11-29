@@ -53,4 +53,4 @@ dataminer.MediaOps is not yet available in the DataMiner Catalog, but a package 
 If you want to try out the apps using demo data, you can then run the *Generate Demo Data* script in the Automation module in DataMiner Cube. This script is included in the MediaOps package. Keep in mind that this script will generate a significant amount of data and will take some time to complete. It will also generate a number of elements in the system. If you no longer want these later, you will need to remove them manually.
 
 > [!TIP]
-> If you have any questions or need assistance to get started with dataminer.mediaOps, contact <support.mediaops@skyline.be>.
+> If you have any questions or need assistance to get started with dataminer.MediaOps, contact <support.mediaops@skyline.be>.
