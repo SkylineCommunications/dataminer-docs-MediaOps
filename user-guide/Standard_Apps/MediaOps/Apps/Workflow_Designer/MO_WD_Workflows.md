@@ -22,7 +22,7 @@ Workflows can be seen as templates for jobs that can be created from the [Schedu
 
    * Create Service Immediately - The service is created when the job is created. UP TO USER TO USE FROM EXECUTION SCRIPT => PROVIDE EXAMPLE
    * Create Service at Workflow Start - The service is created when the job starts. TODO WHY WORKFLOW START AND NOT JOB START?
-   * Don't Create Service - No monitoring service wil be created for this job.
+   * Don't Create Service - No monitoring service will be created for this job.
 
 1. **At job end**: Defines what to do with the monitoring service when the job ends. TODO CHECK IF THIS CAN ALREADY BE USED?
 
