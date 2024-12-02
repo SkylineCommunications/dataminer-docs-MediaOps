@@ -1,6 +1,5 @@
 ---
 uid: Preparing_to_upgrade_a_DataMiner_Agent
-description: To ensure a successful DataMiner upgrade, first check for known issues and breaking changes, upload the package, and create a backup.
 ---
 
 # Preparing to upgrade a DataMiner Agent
@@ -40,7 +39,7 @@ To upload an upgrade package:
 > When you upload a package, several [prerequisite checks](#prerequisite-checks) will be executed, so that you will immediately get informed if certain conditions or requirements for the update are not met yet.
 
 > [!TIP]
-> We recommend that you upload the package a few days before you execute the upgrade. This will allow you extra time to perform corrective actions in case any of the prerequisite checks fail.
+> To be safe, upload the package at least a week before executing the upgrade.
 
 ### Have a backup at the ready
 
@@ -64,13 +63,11 @@ Make a backup of your DataMiner Agent using DataMiner Taskbar Utility or DataMin
 
 ### Best practices when upgrading across major versions
 
-If you are upgrading to another major version that does not immediately follow your current version, always follow this general guideline:
+If you are not upgrading to the DataMiner version that immediately follows your current version, always follow this general guideline:
 
 **Upgrade to the next major DataMiner version(s) before upgrading to your preferred version**.
 
 ![Upgrading across major versions](~/user-guide/images/Upgrading_across_major_versions.png)
-
-This does not apply for upgrades within the same major version. For example, to upgrade from 10.4.0 CU6 to 10.4.0 CU8, it is not necessary to install CU7 first.
 
 > [!IMPORTANT]
 >

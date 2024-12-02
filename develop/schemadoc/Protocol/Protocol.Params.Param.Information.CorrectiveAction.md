@@ -4,7 +4,7 @@ uid: Protocol.Params.Param.Information.CorrectiveAction
 
 # CorrectiveAction element
 
-Specifies a corrective action.<!-- RN 4723 -->
+Specifies a corrective action.
 
 ## Type
 
@@ -20,3 +20,6 @@ When an alarm for this parameter is generated, the value specified here will be 
 
 > [!NOTE]
 > The value specified here serves as a default and can be overridden in an information template.
+
+
+*Feature introduced in DataMiner 7.5.2 (RN 4723).*

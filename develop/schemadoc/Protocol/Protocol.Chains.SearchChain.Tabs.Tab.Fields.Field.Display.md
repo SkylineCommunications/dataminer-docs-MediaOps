@@ -4,8 +4,6 @@ uid: Protocol.Chains.SearchChain.Tabs.Tab.Fields.Field.Display
 
 # Display element
 
-<!-- RN 29640, RN 29656 -->
-
 Configures chain field display settings.
 
 ## Parent
@@ -17,6 +15,10 @@ Configures chain field display settings.
 |Name|Occurrences|Description|
 |--- |--- |--- |
 |&nbsp;&nbsp;[Visibility](xref:Protocol.Chains.SearchChain.Tabs.Tab.Fields.Field.Display.Visibility)|||
+
+## Remarks
+
+Feature introduced in DataMiner 10.1.6 (RN 29640, RN 29656).
 
 ## Example
 

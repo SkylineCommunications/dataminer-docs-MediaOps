@@ -1,6 +1,5 @@
 ---
 uid: Upgrading_a_DataMiner_Agent
-description: Once your system meets the necessary requirements and you have prepared the upgrade successfully, you can upgrade DataMiner in various ways.
 ---
 
 # Upgrading a DataMiner Agent

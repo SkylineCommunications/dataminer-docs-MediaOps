@@ -163,7 +163,7 @@ AgentState state = agent.State;
 
 The following diagram gives an overview of the provided interfaces:
 
-![Connections class diagram](~/develop/images/classlibrary1205_1.png)
+![alt text](../../images/classlibrary1205_1.png "Connections class diagram")
 
 The following example illustrates how to create an element with an HTTP connection:
 

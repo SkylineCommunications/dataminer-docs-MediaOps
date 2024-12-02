@@ -1,6 +1,5 @@
 ---
 uid: Overview_General_Introduction
-description: DataMiner’s open architecture enables users to evolve easily and continuously – a perfect fit to establish a DevOps data engineering operation.
 ---
 
 # General introduction

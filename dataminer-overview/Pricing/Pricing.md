@@ -1,6 +1,5 @@
 ---
 uid: Pricing
-description: Different commercial and delivery models are available for DataMiner. Skyline can offer you maximum flexibility to align with your priorities.
 ---
 
 # Pricing

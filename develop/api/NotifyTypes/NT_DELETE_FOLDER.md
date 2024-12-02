@@ -25,7 +25,7 @@ protocol.NotifyDataMiner(182 /*NT_DELETE_FOLDER*/, folder, null);
 
 ## Remarks
 
-- You can specify whether the DataMiner recycle bin should be bypassed:<!-- RN 24639 -->
+- From DataMiner 10.0.3 (RN 24639) onwards, it is possible to specify whether the DataMiner recycle bin should be bypassed.
 
   ```csharp
   string folder = "Configurations";

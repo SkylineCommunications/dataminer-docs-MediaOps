@@ -4,7 +4,7 @@ uid: Protocol.Params.Param.SNMP.OID-skipDynamicSNMPGet
 
 # skipDynamicSNMPGet attribute
 
-Specifies that the evaluation of a certain parameter is skipped if it needs to be retrieved via a dynamic SNMP Get.<!-- RN 5791 -->
+Specifies that the evaluation of a certain parameter is skipped if it needs to be retrieved via a dynamic SNMP Get.
 
 ## Content Type
 
@@ -17,6 +17,8 @@ Specifies that the evaluation of a certain parameter is skipped if it needs to b
 ## Remarks
 
 Use this attribute to skip the evaluation of a certain parameter if it needs to be retrieved via a dynamic SNMP Get. See [options](xref:Protocol.Params.Param.Type-options).
+
+*Feature introduced in DataMiner 8.0.1 (RN 5791).*
 
 ## Examples
 

@@ -1,7 +1,6 @@
 ---
 uid: DataMiner_Compute_Requirements
-keywords: system requirements, .NET requirements, dotnet requirements
-description: For optimal performance, make sure DataMiner has sufficient RAM, vCPUs, etc. Unless STaaS is used, minimum requirements for data storage also apply.
+keywords: system requirements
 ---
 
 # DataMiner Compute Requirements
@@ -167,7 +166,7 @@ A high-speed network is required to be able to transfer the data between the dif
 
 ### Operating System
 
-We recommend installing Cassandra on Linux. In fact, from Cassandra 4.0 and DataMiner 10.4.x onwards, only Linux is supported.
+We recommend installing Cassandra on Linux. In fact, from Cassandra 4.0 onwards, only Linux is supported. Older Cassandra versions also support Windows.
 
 ### Time
 

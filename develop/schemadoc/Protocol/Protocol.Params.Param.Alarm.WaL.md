@@ -8,7 +8,7 @@ Defines the default value in the alarm template that this parameter must equal o
 
 ## Type
 
-[TypeAlarmTemplateDefaultValues](xref:Protocol-TypeAlarmTemplateDefaultValues)
+string
 
 ## Parent
 

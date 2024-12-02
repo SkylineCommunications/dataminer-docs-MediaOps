@@ -8,7 +8,7 @@ When the value of the alarm is equal to the value specified in this element, an 
 
 ## Type
 
-[TypeAlarmTemplateDefaultValues](xref:Protocol-TypeAlarmTemplateDefaultValues)
+string
 
 ## Parent
 

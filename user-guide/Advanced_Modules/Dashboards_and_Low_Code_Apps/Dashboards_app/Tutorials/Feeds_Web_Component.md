@@ -118,4 +118,4 @@ This tutorial is part of the following learning path:
 
 ## Related documentation
 
-- [Component data](xref:Component_Data)
+- [Feeds](xref:Using_dashboard_feeds)

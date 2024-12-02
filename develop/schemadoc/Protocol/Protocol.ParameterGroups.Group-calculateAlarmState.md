@@ -4,8 +4,6 @@ uid: Protocol.ParameterGroups.Group-calculateAlarmState
 
 # calculateAlarmState attribute
 
-<!-- RN 15180 -->
-
 Specifies whether to disable the interface state calculation.
 
 ## Content Type
@@ -19,3 +17,5 @@ Specifies whether to disable the interface state calculation.
 ## Remarks
 
 Default value: true.
+
+*Feature introduced in DataMiner 9.5.3 (RN 15180).*

@@ -4,7 +4,7 @@ uid: Protocol.PortSettings.GetCommunity
 
 # GetCommunity element
 
-Specifies the GetCommunity string of an SNMP connector.
+Specifies the GetCommunity string of an SNMP driver.
 
 ## Parent
 

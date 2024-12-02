@@ -8,3 +8,4 @@ uid: Operation_duration
 
     > [!NOTE]
     > After 7.5 min, a half-open RTE message is logged in the SLWatchdog2.txt log file.
+    >

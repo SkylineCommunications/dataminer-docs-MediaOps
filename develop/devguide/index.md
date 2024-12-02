@@ -1,6 +1,5 @@
 ---
 uid: DevelopmentGuide
-description: Learn how to create DataMiner connectors & Automation scripts, and how to work with the Class Library & InterApp framework.
 ---
 
 # Development Guide

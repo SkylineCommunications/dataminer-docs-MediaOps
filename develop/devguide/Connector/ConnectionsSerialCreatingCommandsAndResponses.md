@@ -10,7 +10,7 @@ The first step is to implement all the needed parameters that will be used in th
 
 For example, consider the following implementation of a GET request as defined in the Hypertext Transfer Protocol (HTTP).
 
-![Example command](~/develop/images/Example_command.jpg)
+![alt text](../../images/Example_command.jpg "Example command")
 
 > [!NOTE]
 >
@@ -79,22 +79,22 @@ The following example defines a command implementing an HTTP GET request:
 
 ### makeCommandByProtocol
 
-By default, the following behavior is applicable in serial connectors:
+By default, the following behavior is applicable in serial drivers:
 
 - For "execute group" actions (i.e., actions of type "execute" on group(s)), a "make" action is automatically performed for the command in the pair(s) referred to by the group(s).
 - "before command" triggers are executed just before the command is sent to SLPort.
 
 For example, consider the following logic being implemented in a protocol. In this case, the command is composed of 2 parameters: one fixed ("Get") and one with dynamic content.
 
-![Executing a command via a timer](~/develop/images/Connection_Types_-_makeCommandByProtocol_Building_Blocks.png)
+![alt text](../../images/Connection_Types_-_makeCommandByProtocol_Building_Blocks.png "Executing a command via a timer")
 
 When the timer goes off, group 1 will be added to the group execution queue. Now suppose parameter 2 holds value "A" at this time.
 
-![Insertion of a timer group in the group execution queue](~/develop/images/Protocol_Explained_-_Insertion_of_a_timer_group.svg)
+![alt text](../../images/Protocol_Explained_-_Insertion_of_a_timer_group.svg "Insertion of a timer group in the group execution queue")
 
 The group travels through the queue until it reaches the front and is processed. At this point, the command that will be sent to the SLPort process is composed based on the current values of the parameters that make up the command. At this point in time, it is possible that the value of parameter 2 has changed already (e.g. the content of parameter 2 is now 'B'). In this case, the command "Get B" will be sent to SLPort instead of "Get A". This could be undesired.
 
-![Default command construction](~/develop/images/Protocol_Explained_-_Default_command_construction.svg)
+![alt text](../../images/Protocol_Explained_-_Default_command_construction.svg "Default command construction")
 
 By using the "makeCommandByProtocol" communication option (see CommunicationOptions), commands will be composed the moment the corresponding group is added to the group execution queue. In the example, this means the command that will be sent is "Get A".
 
@@ -103,7 +103,7 @@ If this option is enabled, the following behavior is applicable:
 - No automatic "make" commands are executed.
 - "before command" triggers are executed before the group is added to the queue. This means a "before command" trigger is now executed prior to a "before group" trigger, while this was previously the other way around.
 
-![Command construction when using makeCommandByProtocol](~/develop/images/Protocol_Explained_-_Default_command_construction_with_makeCommandByProtocol.svg)
+![alt text](../../images/Protocol_Explained_-_Default_command_construction_with_makeCommandByProtocol.svg "Command construction when using makeCommandByProtocol")
 
 As in this case no automatic "make" action is performed, the protocol should define a "make command" action which triggers before each command.
 
@@ -295,11 +295,10 @@ The trigger to read the response will fail but the parameters of the response wi
 
 The reason is that only the last action in a trigger can cause a definitive cancel of the response. When the length action is not the last action, SLProtocol will try to parse the response up to the length parameter and this causes parameters before the length to be processed.
 
-> [!TIP]
-> See also:
->
-> - [Protocol.Actions.Action.Type](xref:Protocol.Actions.Action.Type)
-> - [Protocol.Params.Param.Type](xref:Protocol.Params.Param.Type)
+#### See also
+
+- [Protocol.Actions.Action.Type](xref:Protocol.Actions.Action.Type)
+- [Protocol.Params.Param.Type](xref:Protocol.Params.Param.Type)
 
 ### Responses with dynamically defined length
 
@@ -357,13 +356,13 @@ In the example below, the Interprete.Length will be defined at runtime by the co
 </Param>
 ```
 
-The field that specifies the length can have a variable length.<!-- RN 24442 --> The following restrictions apply:
+From DataMiner 10.0.3 (RN 24442) onwards, it is possible for the field that specifies the length to have a variable length. The following restrictions apply:
 
 - The response must contain a trailer that is set before the data parameter. (It does not have to contain a header.)
 - The length parameter should be located before the data parameter. It should be of length type "next param" and raw type "numeric text".
 - The length parameter must be located between two fixed parameters.
 
-![Responses with dynamically defined length](~/develop/images/RN24442.svg)
+![alt text](../../images/RN24442.svg "Responses with dynamically defined length")
 
 > [!NOTE]
 > An example protocol "Skyline Example Serial Response Matching" is available in the [SkylineCommunications/SLC-C-Example_Serial-Response-Matching](https://github.com/SkylineCommunications/SLC-C-Example_Serial-Response-Matching) GitHub repository.
@@ -398,7 +397,7 @@ This parameter has a CRC child tag, where CRC.Type defines how the CRC is calcul
 </Param>
 ```
 
-In the example below, the CRC calculation is done with parameter 0, 2, 6, 5, and 1.
+In the example below, the CRC calculation is done with parameter 0, 2, 6, 5 and 1.
 
 ```xml
 <Command id="1">

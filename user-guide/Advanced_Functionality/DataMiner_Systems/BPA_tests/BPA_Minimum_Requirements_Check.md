@@ -2,9 +2,7 @@
 uid: BPA_Minimum_Requirements_Check
 ---
 
-# DataMiner Agent Minimum Requirements
-
-Prior to DataMiner 10.4.12/10.5.0<!--RN 40751-->, this BPA test is called "Minimum Requirements Check".
+# Minimum Requirements Check
 
 This BPA test checks if the following minimum hardware requirements are met or exceeded, via local WMI queries using .NET Libraries:
 
@@ -25,7 +23,7 @@ If you are using a [DaaS system](xref:Creating_a_DMS_in_the_cloud), your entire 
 
 ## Metadata
 
-- Name: DataMiner Agent Minimum Requirements
+- Name: Minimum Requirement Checker
 - Description: Uses WMI queries to verify that the system meets the minimum requirements for DataMiner.
 - Author: Skyline Communications
 - Default schedule: Every hour

@@ -39,4 +39,4 @@ serviceDetails (uint[]):
 
 ## Remarks
 
-- You can use this call to delete services in a cluster on a remote DMA.<!-- RN 10032 -->
+- From DataMiner version 8.5.7.3 (RN10032) onwards, it is possible to delete services in a cluster on a remote DMA.

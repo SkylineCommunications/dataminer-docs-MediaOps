@@ -1,6 +1,5 @@
 ---
 uid: Collecting_data_to_report_an_issue_to_TechSupport
-description: To report an issue to DataMiner Tech Support, you will need a Log Collector package, as well as additional information depending on the issue.
 ---
 
 # Collecting data to report an issue to Technical Support

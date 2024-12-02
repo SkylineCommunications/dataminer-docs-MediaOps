@@ -4,41 +4,32 @@ uid: FAQs_Pricing
 
 # Questions related to commercial models
 
-## General
+- **Can different commercial models exist in the same organization?**
 
-### What commercial and deploy models does Skyline offer?
+  No. Licensing and usage are measured at organization level. Each organization selects one model, either perpetual licensing or usage-based. An organization with an active subscription can also buy Pay-Per-Use credits.
+  As a [company](xref:Pricing_Usage_based_service#organization), you can have multiple organizations and select the model that fits best for a specific DataMiner System or specific DataMiner Systems.
 
-Commercial models define how you pay for software and determine ownership and usage rights. We offer two models:
 
-- Usage-based services
-- Perpetual-use licenses
+- **Can I transition my perpetual licenses into subscription?**
 
-Deploy or delivery models determine how that same software is deployed. We offer three models:
+  Yes. Get in touch with [your Account Manager](https://community.dataminer.services/get-in-touch/sales-team/).
 
-- Self-managed on private/public cloud or on-premises
-- Software-as-a-Service (SaaS)
-- Hybrid: self-managed DataMiner nodes with Storage-as-a-Service (STaaS)
+- **Are there any sign-up fees or one-time fees for usage-based models?**
 
-Usage-based services can use any of the deploy models.
+  No.
 
-Perpetual-use licenses can be fully self-managed (DataMiner nodes and storage nodes) or hybrid.
+- **How is monthly usage of "data collection and control plane" calculated?**
 
-### Can different commercial models exist in the same organization?
+  The sum of the maximum number of active Managed Objects (for Managed Objects with 100+ metrics) and metrics (Managed Objects under 100 metrics) at any given time. Metering follows the 95% percentile (i.e. maximum usage after skipping the peak 5% usage), in practice allowing some room (36h per month) for tests or bursts of usage.
 
-Yes. Licensing and usage are measured at the DMS (DataMiner System) level. An organization can have perpetual licenses on one DMS while running usage-based services on a different DMS.
+- **What level of support is included in usage-based services?**
 
-### Can different commercial models exist in the same DataMiner System?
+  See [DataMiner Support Services](xref:Overview_Support_DMS_M_and_S).
 
-Yes, but limited. If a DMS has a perpetual license, it can only use dataminer.services and STaaS from the usage services.
+- **Is outside business hours support available?**
 
-### Can I transition my perpetual licenses into a subscription?
+  Yes, if you have subscribed to that service.
 
-Yes. Your Account Manager will be able to provide more information and assist you with this.
+- **Can I use Professional Services credits in exchange for DataMiner credits?**
 
-### Are there any sign-up fees or one-time fees for usage-based models?
-
-No.
-
-### Can I use Professional Services credits in exchange for DataMiner credits?
-
-No.
+  No.

@@ -28,11 +28,11 @@ Elements can have in/out interfaces, among which two types of connections can be
 
 - Internal connections: Define a connection within the same element (e.g. matrix, switch, multiplexer, etc.). Internal connections always have a link from input interface to output interface, with inout interfaces being a wildcard.
 
-    ![Internal connection](~/develop/images/DCFInternalConnection.png)
+    ![alt text](../../images/DCFInternalConnection.png "Internal connection")
 
 - External connections: Define the interconnectivity between elements. External connections will always have a link from output interface to input interface, with inout interfaces being a wildcard.
 
-    ![External connection](~/develop/images/DCFExternalConnection.png)
+    ![alt text](../../images/DCFExternalConnection.png "External connection")
 
 ## Properties
 

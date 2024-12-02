@@ -152,9 +152,9 @@ nodetool snapshot
 
    ![Cassandra Source List File](~/user-guide/images/CassandraUpdate_CassandraSourcesListFile.png)
 
-   Press Ctrl+X after modifying this file, and when the question *Save Modified buffer* comes up, press the **Y** key.
+   Hit CTRL + X after modifying this file, when the question "Save Modified buffer" comes up, hit **Y** keyboard button.
 
-   At the bottom, the *File Name to Write* pane will come up. Press **Enter**.
+   At the bottom, File Name to Write pane will come up, hit the **Enter** keyboard button.
 
    ![Nano Editor File Name to Write](~/user-guide/images/CassandraUpdate_NanoFileToWrite.png)
 

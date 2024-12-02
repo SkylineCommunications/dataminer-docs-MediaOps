@@ -2,11 +2,11 @@
 uid: publish_to_catalog
 ---
 
-# Publishing items in the DataMiner Catalog
+# Publishing artifacts to the DataMiner Catalog
 
-The [DataMiner Catalog](https://catalog.dataminer.services/) allows users to quickly look up, download, and deploy various DataMiner-related items.
+The [DataMiner Catalog](https://catalog.dataminer.services/) allows users to quickly look up, download, and deploy various DataMiner-related artifacts.
 
-This platform is constantly getting improved. At present, several workarounds are still needed to get certain items to show up in the Catalog. Below, you can find more information about how to publish specific kinds of items.
+This platform is constantly getting improved. At present, several workarounds are still needed to get certain artifacts to show up in the Catalog. Below, you can find more information about how to publish specific kinds of artifacts.
 
 > [!NOTE]
 > Publishing public items to the Catalog is currently only possible for members of Skyline Communications.

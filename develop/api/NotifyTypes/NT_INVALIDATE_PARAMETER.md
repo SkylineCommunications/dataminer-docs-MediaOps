@@ -21,3 +21,7 @@ protocol.NotifyProtocol(307/*NT_INVALIDATE_PARAMETER*/ , parameterIDs, isValid);
 ## Return Value
 
 - Does not return an object.
+
+## Remarks
+
+- Supported since DataMiner version 7.5.0.

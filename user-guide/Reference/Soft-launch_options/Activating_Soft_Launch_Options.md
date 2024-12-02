@@ -1,6 +1,5 @@
 ---
 uid: Activating_Soft_Launch_Options
-description: DataMiner soft-launch options activate features that are not yet available to the general public. They can be enabled in SoftLaunchOptions.xml.
 ---
 
 # Activating soft-launch options

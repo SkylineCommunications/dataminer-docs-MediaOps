@@ -6,7 +6,7 @@ uid: DataMinerErrorCodes
 
 Values are 32-bit values structured as follows:
 
-![DataMiner error code structure](~/develop/images/errorCodeStructure.svg)
+![alt text](../images/errorCodeStructure.svg "DataMiner error code structure")
 
 - **Sev**: Severity code
   - 00 (0x0) - STATUS_SEVERITY_SUCCESS

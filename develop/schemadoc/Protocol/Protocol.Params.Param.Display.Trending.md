@@ -25,3 +25,5 @@ Specifies the formula to be used for the average trending data of this parameter
 ## Remarks
 
 Can be added for both analog and discreet parameters.
+
+*Feature introduced in DataMiner 7.5.7.1.*

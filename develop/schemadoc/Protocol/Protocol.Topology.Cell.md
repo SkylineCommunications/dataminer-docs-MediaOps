@@ -4,7 +4,7 @@ uid: Protocol.Topology.Cell
 
 # Cell element
 
-Specifies a cell within an EPM topology.
+Specifies a cell within an EPM (formerly known as CPE) topology.
 
 ## Parent
 
@@ -22,4 +22,4 @@ Specifies a cell within an EPM topology.
 
 |Name|Occurrences|Description|
 |--- |--- |--- |
-|&nbsp;&nbsp;[Link](xref:Protocol.Topology.Cell.Link)|[0, *]|Specifies how a cell in an EPM topology is linked to another cell in that topology, using foreign key relations (which can also be inside the same table).|
+|&nbsp;&nbsp;[Link](xref:Protocol.Topology.Cell.Link)|[0, *]|Specifies how a cell in an EPM (formerly known as CPE) topology is linked to another cell in that topology, using foreign key relations (which can also be inside the same table).|

@@ -8,7 +8,7 @@ Specifies the connection ID, or a comma-separated list of different connection I
 
 ## Content Type
 
-[TypeCommaSeparatedNumbers](xref:Protocol-TypeCommaSeparatedNumbers)
+[TypeSemicolonSeparatedNumbers](xref:Protocol-TypeSemicolonSeparatedNumbers)
 
 ## Parent
 

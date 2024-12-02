@@ -88,9 +88,6 @@ The dropdown component will now list all available elements that match the proto
 
    1. On the right side of the *Value* box, click the *Link to feed* icon to open the *Link to feed* dialog.
 
-      > [!NOTE]
-      > Starting from DataMiner 10.3.0 [CU21]/10.4.0 [CU9]/10.4.12, the icon and dialog are labeled as *Link to data* instead.
-
       1. Open the *Feed* box, and select the dropdown component.
 
       1. Open the *Property* box, and select "Element ID".
@@ -119,4 +116,4 @@ The table component should now display the parameters specified during query cre
 
 ## Related documentation
 
-- [Component data](xref:Component_Data)
+- [Feeds](xref:Using_dashboard_feeds)

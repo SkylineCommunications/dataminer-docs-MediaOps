@@ -154,10 +154,10 @@ The DataMiner Automation process.
 
 ### SLBrain
 
-**Deprecated**. Legacy DataMiner Correlation process.
+The DataMiner Correlation process.
 
-> [!NOTE]
-> This process is only available in DataMiner versions prior to DataMiner 10.5.1/10.6.0.<!--RN 40834-->
+> [!TIP]
+> See also: [DataMiner Correlation](xref:About_DMS_Correlation)
 
 ### SLGSMGateway
 

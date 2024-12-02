@@ -74,7 +74,7 @@ To create the repositories:
            <RepoPath>CompanionFiles\Customers\Ziine\Ziine SatUplink</RepoPath>
            <Version>
                <Selection>
-               <Range rangeSelection="latestRelease">1.0.0.X</Range>
+               <Range triggerPackagePipelineOnChange="false" rangeSelection="latestRelease">1.0.0.X</Range>
                </Selection>
            </Version>
            </CompanionFile>

@@ -1,6 +1,5 @@
 ---
 uid: ConnectionsSmartSerial
-description: Smart-serial devices reply with a response upon receiving a command, just like serial devices, but they can also send unsolicited messages.
 ---
 
 # Smart Serial

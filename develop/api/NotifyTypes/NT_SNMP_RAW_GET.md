@@ -4,7 +4,7 @@ uid: NT_SNMP_RAW_GET
 
 # NT_SNMP_RAW_GET (424)
 
-Performs an SNMP GET request without requiring an SNMP connection to be defined in the protocol.<!-- RN 18369 -->
+Performs an SNMP GET request without requiring an SNMP connection to be defined in the protocol.
 
 ```csharp
 var settings = new object[9];    // Minimum length: 2
@@ -44,7 +44,6 @@ else
 ## Parameters
 
 - settings (object[]): Request info. At least the first two entries must be present.
-
   - settings[0] (object[]): (Required.) Version-specific information.
 
     This array (referred to as versionSpecificSettings[] below) contains the SNMP version and information that only applies for specific SNMP versions.
@@ -91,9 +90,7 @@ else
 
         > [!NOTE]
         > Default is used when the object in the array is null or of the wrong type.
-
     - settings[1] (string): (Required.) Specifies the destination address, which can optionally include the port.
-
     - settings[2] (string or int): (Optional.) Specifies the destination port. Default: 161.
 
       > [!NOTE]
@@ -103,26 +100,19 @@ else
 
       > [!NOTE]
       > The resolution of the timeout is 10 ms.
-
     - settings[4] (int): (Optional.) Specifies the number of retries. Default: 3.
-
     - settings[5] (bool): (Optional.) Specifies whether multiple variable bindings is used.
 
       Default: false.
-
     - settings[6] (string): (Optional.) Instance. Default: Empty string ("").
-
     - settings[7] (int): (Optional.) Dynamic Poll Type. Possible values:
-
       - 0: Fallback
       - 1: MultipleGet
       - 2: SingleGets
 
       Default: 2 (SingleGets)
-
     - settings[8] (bool): (Optional.) Split errors from values. Default: false.
-
-    - settings[9] (string): Optional. GUID of entry in credentials library.<!-- RN 27275 -->
+    - settings[9] (string): Optional. GUID of entry in credentials library. Supported from DataMiner 10.0.11 (RN 27275) onwards.
 
       If you pass a GUID, you do not need to pass any credentials.
 
@@ -135,7 +125,6 @@ else
 
     > [!NOTE]
     > Values not provisioned or left null will be initialized with their default value.
-
 - oidInfo (string[]): Array containing the OIDs that need to be retrieved.
 
 ## Return Value
@@ -144,5 +133,6 @@ else
 
 ## Remarks
 
-- If the "multiple get" Boolean (settings[5]) is false, separate SNMP messages will be used to poll each OID, and if the "multiple get" Boolean (settings[5]) is true, a single SNMP message will be used to poll the OIDs.<!-- RN 20727 -->
+- Feature introduced in DataMiner 9.5.12 (RN 18369).
+- From DataMiner 9.6.3 (RN 20727) onwards, if the “multiple get” Boolean (settings[5]) is false, separate SNMP messages will be used to poll each OID, and if the “multiple get” Boolean (settings[5]) is true, a single SNMP message will be used to poll the OIDs.
 - Retrieving SNMP data using this method does not affect the timeout state of the element.

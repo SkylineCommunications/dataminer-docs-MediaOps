@@ -1,15 +1,29 @@
 ---
 uid: CodingGuidelines
-description: To uphold the quality level of DataMiner protocols and improve readability, maintainability, and performance, adhere to these best practices.
 ---
 
-# Best practices for protocol development
+# DataMiner Protocol Development Guidelines
 
-This section lists best practices and guidelines designed to uphold the quality level of DataMiner protocols (a.k.a. connectors) by improving readability, maintainability, and performance.
+The guidelines specified in this section are designed to uphold the level of quality of DMS protocols by improving readability, maintainability, and performance.
 
-By adhering to these best practices and guidelines, you can ensure that protocols have a consistent look and thereby increase maintainability and readability, and you will also increase the reusability, stability, and performance of the protocols you develop.
+By adhering to these guidelines, we can ensure that protocols have a consistent look, and thereby increase maintainability and readability. The guidelines also increase reusability, stability and performance.
 
-A checklist is available [on DataMiner Dojo](https://community.dataminer.services/protocol-development-downloads/), which should be used whenever a new protocol version is created. In the checklist, verify every item and specify "OK", "Fail", or "NA", as appropriate.
+When a new protocol version is created, you must verify every item in the protocol development checklist and specify "OK", "Fail" or "NA" every time.
 
-> [!NOTE]
-> The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this section are to be interpreted as described in RFC 2119 (see <https://www.ietf.org/rfc/rfc2119.txt>).
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119 (see <https://www.ietf.org/rfc/rfc2119.txt>).
+
+In this section:
+
+- [General](xref:CODGeneral#general)
+
+- [Administrative metadata](xref:CODAdminMetadata#administrative-metadata)
+
+- [User interface](xref:CODUserInterface#user-interface)
+
+- [Monitoring](xref:CODMonitoring#monitoring)
+
+- [Protocol](xref:CODProtocol#protocol)
+
+- [Validation](xref:CODValidation#validation)
+
+- [Points of attention](xref:CODAttention#points-of-attention)

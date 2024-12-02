@@ -13,9 +13,11 @@ Different approaches are possible to implement this functionality in a protocol.
 
 ## snmpSetAndGet
 
-To implement an SNMP table set using [snmpSetAndGet](xref:Protocol.Params.Param-snmpSetAndGet), you must use the "instance" option. This way, DataMiner will be able to know which row and column have been set. The table must also be displayed, as a user interaction is needed to perform the write (performing a set via a QAction will not work as the corresponding primary key will not be found).
+From DataMiner version 8.5.7 onwards, the following method can be used to implement a SNMP table set.
 
-Define a write parameter for the column and use the `snmpSetAndGet` attribute by setting it to `true`.
+In order to use this method, you must use the "instance" option. This way, DataMiner will be able to know which row and column have been set. The table must also be displayed, as a user interaction is needed to perform the write (performing a set via a QAction will not work as the corresponding primary key will not be found).
+
+Define a write parameter for the column and use the snmpSetAndGet attribute by setting it to "true".
 
 ```xml
 <Param id="157" snmpSetAndGet="true">
@@ -57,7 +59,7 @@ Define a write parameter for the column and use the `snmpSetAndGet` attribute by
 
 ## Using a parameter holding the instance
 
-This approach requires that you implement logic in the protocol to know which row has been selected. Perform the following steps:
+This method requires that you implement logic in the protocol to know which row has been selected. Perform the following steps:
 
 1. Create a write parameter for the column that should support altering the value.
 
@@ -119,7 +121,7 @@ This approach requires that you implement logic in the protocol to know which ro
     </Param>
     ```
 
-    This parameter has the option "snmpSet" and an SNMP tag specifying an OID with a wildcard (`*`). Provide a link to another parameter (parameter with ID 99 in this example), which will hold the instance value. This is done via the id attribute.
+    This parameter has the option "snmpSet" and an SNMP tag specifying an OID with a wildcard ("*"). Provide a link to another parameter (parameter with ID 99 in this example), which will hold the instance value. This is done via the id attribute.
 
 1. Create a parameter of type "read" that will contain the dynamic part of the OID. This is the parameter that the write parameter defined in step 2 will link to. (Note that this parameter should not be displayed on a page.)
 
@@ -166,11 +168,11 @@ This approach requires that you implement logic in the protocol to know which ro
 
     After the SET, a GET is required. In the example, a trigger is checked to refresh the table contents from the QAction.
 
-    You can also use the option `snmpSetAndGetWithWait` to automatically perform a get of the cell that has been set (see [options attribute](xref:Protocol.Params.Param-options)). In order to use this, the instance option needs to be defined on the table. The column write parameter needs to have a wildcard but there is no need to specify another parameter containing the dynamic part of the OID.
+    Since DataMiner version 8.0.1.1, the option "snmpSetAndGetWithWait" can be used, which will automatically perform a get of the cell that has been set. In order to use this, the instance option needs to be defined on the table. The column write parameter needs to have a wildcard but there is no need to specify another parameter containing the dynamic part of the OID.
 
 ## Via SLScripting
 
-It is possible to perform an SNMP SET from a Quick Action using the NotifyProtocol method (type 292, [NT_SNMP_SET](xref:NT_SNMP_SET)).
+Since DataMiner version 7.0, it is possible to perform an SNMP SET from a Quick Action using the NotifyProtocol method (type 292, "NT_SNMP_SET"). For details on how to use this method, see <xref:NT_SNMP_SET>.
 
 To perform an SNMP set via the SLScripting process (i.e. in a QAction), perform the following steps:
 

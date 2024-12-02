@@ -1,6 +1,5 @@
 ---
 uid: DSIEmberPlus
-description: Ember+ is a control protocol allowing communication between a data provider and a consumer, consisting of three parts, i.e. Glow, EmBER, and S101.
 ---
 
 # Ember+
@@ -15,7 +14,9 @@ The Ember+ specification consists of three parts:
 
 - S101: The framing protocol used to transmit EmBER encoded data.
 
-![Ember+ layers ](~/develop/images/EmberPlusLayers.jpg)
+![](~/develop/images/EmberPlusLayers.jpg)
+
+
 
 The Ember+ specification is available in the following location: <https://github.com/Lawo/ember-plus/blob/master/documentation/Ember%2B%20Documentation.pdf>.
 

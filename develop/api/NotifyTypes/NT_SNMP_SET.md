@@ -39,12 +39,14 @@ object[] result = (object[])protocol.NotifyProtocol(292/*NT_SNMP_SET*/, elementI
   - elementInfo[4] (int): Connection ID (default 0).
 
     > [!NOTE]
-    > If a connection ID of a connection defined in the protocol is specified, all the settings that are set on that interface (IP, community string, credentials, timeout, etc.) will be used. If you override some (or all) of these values with their dedicated field, they will override the interface setting for that specific GET/SET.
+    >
+    > - If a connection ID of a connection defined in the protocol is specified, all the settings that are set on that interface (IP, community string, credentials, timeout, etc.) will be used. If you override some (or all) of these values with their dedicated field, they will override the interface setting for that specific GET/SET.
+    > - Since DataMiner 9.5.0 [CU7]/9.5.10 (RN 17917), it is possible to specify the ID of an SNMPv3 interface.
 
   - elementInfo[5] (string): Set community string. Default: interface set community string.
   - elementInfo[6] (boolean): False = no retries, true = interface retry count. Default: false.
   - elementInfo[7] (int): DataMiner Agent ID. Default: Local DataMiner Agent ID.
-  - elementInfo[8] (object[] of length 6): SNMPv3 authentication and encryption settings.<!-- RN 18077 -->
+  - elementInfo[8] (object[] of length 6): SNMPv3 authentication and encryption settings.
     - [0]: (string) Username. Default: empty string ("").
     - [1] (int): Security level. Possible values:
       - 1: No authentication, no encryption
@@ -71,9 +73,8 @@ object[] result = (object[])protocol.NotifyProtocol(292/*NT_SNMP_SET*/, elementI
 
     > [!NOTE]
     > If a port is specified in elementInfo[1], then the value specified elementInfo[1] will have precedence over the one passed along in the dedicated field.
-
   - elementInfo[10] (int): timeout
-  - elementInfo[11] (string): Optional. GUID of entry in credentials library.<!-- RN 27275 -->
+  - elementInfo[11] (string): (Optional. GUID of entry in credentials library. Supported from DataMiner 10.0.11 (RN 27275) onwards.
 
     If you pass a GUID, you do not need to pass any credentials.
 
@@ -90,8 +91,7 @@ object[] result = (object[])protocol.NotifyProtocol(292/*NT_SNMP_SET*/, elementI
         - oidInfoN[1] (string/double): Value that needs to be set.
 
           > [!NOTE]
-          > It is also possible to set integer values for SNMPv3.<!-- RN 18034 -->
-
+          > From DataMiner 9.5.0 [CU7]/9.5.10 (RN 18034) onwards, it is also possible to set integer values for SNMPv3.
         - oidInfoN[2] (int): SNMP type indication.
 
           SNMP types:
@@ -118,4 +118,5 @@ object[] result = (object[])protocol.NotifyProtocol(292/*NT_SNMP_SET*/, elementI
 
 ## Remarks
 
+- Supported since DataMiner version 7.5.0. The optional entries in the elementInfo array are introduced in DataMiner 9.5.12 (RN 18077).
 - To perform an SNMP Set request in a protocol that has no SNMP connection defined, refer to <xref:NT_SNMP_RAW_SET>.

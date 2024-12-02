@@ -1,6 +1,5 @@
 ---
 uid: CodeMaid
-description: Use the CodeMaid Visual Studio plugin to clean up your code and fix formatting issues. It among others features automatic reorganization and cleanup.
 ---
 
 # CodeMaid

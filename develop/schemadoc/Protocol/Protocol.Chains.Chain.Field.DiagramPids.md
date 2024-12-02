@@ -4,8 +4,6 @@ uid: Protocol.Chains.Chain.Field.DiagramPids
 
 # DiagramPids element
 
-<!-- RN 14442, RN 14468 -->
-
 Specifies the IDs of the (read) parameters to be shown in the diagram box.
 
 ## Type
@@ -20,6 +18,8 @@ Specifies the IDs of the (read) parameters to be shown in the diagram box.
 
 > [!NOTE]
 > This renders the KPIsInDiagram option defined in the Field@options attribute obsolete (see [KPIsInDiagram](xref:Protocol.Chains.Chain.Field-options#kpisindiagram)).
+
+*Feature introduced in DataMiner 9.5.1 (RN 14442, RN 14468).*
 
 ## Examples
 

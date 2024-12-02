@@ -1176,9 +1176,6 @@ namespace Skyline.DataMiner.Scripting
 		///			<item>
 		///				<description>A <see langword="null"/> value will not clear the parameter but keep its current value. To clear a parameter, see <see href="xref:LogicActionClear">clear</see>.</description>
 		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
-		///			</item>
 		///		</list>
 		///	</remarks>
 		///	<example>
@@ -1202,10 +1199,7 @@ namespace Skyline.DataMiner.Scripting
 		///			</item>
 		///			<item>
 		///				<description>A <see langword="null"/> value will not clear the parameter but keep its current value. To clear a parameter, see <see href="xref:LogicActionClear">clear</see>.</description>
-		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
-		///			</item>
+		///			</item>		
 		///		</list>
 		///	</remarks>
 		///	<example>
@@ -1316,9 +1310,6 @@ namespace Skyline.DataMiner.Scripting
 		///			<item>
 		///				<description>Feature introduced in DataMiner version 8.0.3.</description>
 		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
-		///			</item>
 		///		</list>
 		///	</remarks>
 		object SetParametersByName(string[] names, object[] values);
@@ -1364,9 +1355,6 @@ namespace Skyline.DataMiner.Scripting
 		///			<item>
 		///				<description>Feature introduced in DataMiner version 8.0.3.</description>
 		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
-		///			</item>
 		///		</list>
 		///	</remarks>
 		object SetReadParametersByName(string[] names, object[] values);
@@ -1381,9 +1369,6 @@ namespace Skyline.DataMiner.Scripting
 		/// 	<list type = "bullet" >
 		///			<item>
 		///				<description>Feature introduced in DataMiner version 8.0.3.</description>
-		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
 		///			</item>
 		///		</list>
 		///	</remarks>
@@ -1632,9 +1617,6 @@ namespace Skyline.DataMiner.Scripting
 		///			<item>
 		///				<description>This method is deprecated since DataMiner 10.3.4.</description>
 		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
-		///			</item>
 		///		</list>
 		///	</remarks>
 		[Obsolete("This method is obsolete since DataMiner 10.3.4.")]
@@ -1702,9 +1684,6 @@ namespace Skyline.DataMiner.Scripting
 		///			</item>
 		///			<item>
 		///				<description>This method is deprecated since DataMiner 10.3.4.</description>
-		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
 		///			</item>
 		///		</list>
 		///	</remarks>
@@ -1869,9 +1848,6 @@ namespace Skyline.DataMiner.Scripting
 		///			<item>
 		///				<description>From DataMiner 10.2.9 onwards (RN 33849), if the DateTime.Kind property of an entry of <paramref name="timeInfos"/> is unspecified, the timestamp of that entry will be handled as local time.</description>
 		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
-		///			</item>
 		///		</list>
 		///	</remarks>
 		object SetParametersIndex(int[] ids, int[] iXs, int[] iYs, object[] values, DateTime[] timeInfos);
@@ -1898,9 +1874,6 @@ namespace Skyline.DataMiner.Scripting
 		///			</item>
 		///			<item>
 		///				<description>Feature introduced in DataMiner version 8.0.3.</description>
-		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
 		///			</item>
 		///		</list>
 		///	</remarks>
@@ -2057,9 +2030,6 @@ namespace Skyline.DataMiner.Scripting
 		///			<item>
 		///				<description>From DataMiner 10.2.9 onwards (RN 33849), if the DateTime.Kind property of an entry in <paramref name="timeInfos"/> is unspecified, the timestamp of that entry will be handled as local time.</description>
 		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
-		///			</item>
 		///		</list>
 		///	</remarks>
 		object SetParametersIndexByKey(int[] ids, string[] keys, int[] iYs, object[] values, DateTime[] timeInfos);
@@ -2085,9 +2055,6 @@ namespace Skyline.DataMiner.Scripting
 		///			</item>
 		///			<item>
 		///				<description>This method acts as a wrapper for a NotifyProtocol type 121 <see href="xref:NT_PUT_PARAMETER_INDEX">NT_PUT_PARAMETER_INDEX</see> call.</description>
-		///			</item>
-		///			<item>
-		///				<description>The sets are processed in the order that they appear within the provided arrays.</description>
 		///			</item>
 		///		</list>
 		///	</remarks>

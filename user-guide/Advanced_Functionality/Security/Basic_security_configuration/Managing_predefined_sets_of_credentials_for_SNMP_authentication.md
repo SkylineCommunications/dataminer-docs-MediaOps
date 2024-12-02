@@ -1,6 +1,5 @@
 ---
 uid: Managing_predefined_sets_of_credentials_for_SNMP_authentication
-keywords: authentication, auth, SNMP credentials
 ---
 
 # Managing predefined sets of credentials for SNMP authentication

@@ -4,8 +4,6 @@ uid: Protocol.GeneralParameters
 
 # GeneralParameters element
 
-<!-- RN 12263 -->
-
 Specifies which general parameter groups should be loaded or not.
 
 ## Parent
@@ -23,3 +21,7 @@ Specifies which general parameter groups should be loaded or not.
 |Type|Description|Selector|Fields|
 |--- |--- |--- |--- |
 |Unique |There must not be multiple GeneralParameterGroup children with the same group type. |GeneralParameter |@group |
+
+## Remarks
+
+*Feature introduced in DataMiner 9.0.1 (RN 12263).*

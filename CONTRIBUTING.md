@@ -1,6 +1,5 @@
 ---
 uid: contributing
-description: The DataMiner documentation is open to contributions from any user. Contributions are created, reviewed, and merged via GitHub.
 ---
 
 # Contributing to the DataMiner docs

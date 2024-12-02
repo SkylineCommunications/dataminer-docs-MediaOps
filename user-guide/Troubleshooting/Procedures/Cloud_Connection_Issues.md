@@ -1,6 +1,5 @@
 ---
 uid: Cloud_Connection_Issues
-description: In the specified order, check the connection status on dataminer.services, the status of the DMS, the CloudGateway status, and the cloud session.
 ---
 
 # Investigating dataminer.services connection issues

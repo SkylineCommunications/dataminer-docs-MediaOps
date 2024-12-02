@@ -4,7 +4,7 @@ uid: Protocol.Params.Param.Information.Category
 
 # Category element
 
-Specifies a category.<!-- RN 4723 -->
+Specifies a category.
 
 ## Type
 
@@ -20,3 +20,5 @@ When an alarm for this parameter is generated, the value specified here will be 
 
 > [!NOTE]
 > The value specified here serves as a default and can be overridden in an information template.
+
+*Feature introduced in DataMiner 7.5.2 (RN 4723).*

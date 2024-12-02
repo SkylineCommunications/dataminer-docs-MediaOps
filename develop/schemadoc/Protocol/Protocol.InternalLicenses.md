@@ -4,8 +4,6 @@ uid: Protocol.InternalLicenses
 
 # InternalLicenses element
 
-<!-- RN 27933 -->
-
 Configures internal licensing.
 
 ## Parent
@@ -21,6 +19,8 @@ Configures internal licensing.
 ## Remarks
 
 Intended for internal use at Skyline Communications only.
+
+*Feature introduced in DataMiner 10.0.13 (RN 27933).*
 
 ## Example
 

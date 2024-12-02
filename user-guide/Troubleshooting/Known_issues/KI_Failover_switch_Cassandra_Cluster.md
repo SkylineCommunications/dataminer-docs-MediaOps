@@ -1,12 +1,12 @@
 ---
-uid: KI_Failover_switch_Cassandra
+uid: KI_Failover_switch_Cassandra_Cluster
 ---
 
-# Failover switch taking a long time on systems with Cassandra setup
+# Failover switch taking a long time on systems with Cassandra Cluster setup
 
 ## Affected versions
 
-Failover systems with Cassandra setup from DataMiner 10.4.2 to 10.4.8.
+Failover systems with Cassandra Cluster setup from DataMiner 10.4.2 to 10.4.8.
 
 ## Cause
 
@@ -18,4 +18,4 @@ Install DataMiner 10.3.0 [CU18], 10.4.0 [CU6], or 10.4.9.
 
 ## Description
 
-On systems with a Cassandra setup, a Failover switch takes significantly longer than usual.
+On systems with a Cassandra Cluster setup, a Failover switch takes significantly longer than usual.

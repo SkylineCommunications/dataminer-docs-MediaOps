@@ -59,9 +59,13 @@ In the **first paragraph** below the title, add a short paragraph explaining the
 
 ### 'About' section
 
-**OBSOLETE**
+In the **About** section, you will need to add a number of tables, depending on the connector. You can find these tables in the [template](xref:Connector_help_template).
 
-Older connector documentation will contain an *About* section with tables with version info, product info, and system info, but this is no longer required as this information is now included directly within the protocol.xml via the various [VersionHistory](xref:Protocol.VersionHistory) tags.
+- For all connectors except exported child connectors, add the **Version Info** table.
+
+- For all connectors except virtual connectors, add the **Product Info** table.
+
+- For **all connectors**, add the **System Info** table. For exported connectors or connectors that cannot have exported connectors, you can leave out the *Exported Components* column in this table.
 
 ### 'Configuration' section
 
