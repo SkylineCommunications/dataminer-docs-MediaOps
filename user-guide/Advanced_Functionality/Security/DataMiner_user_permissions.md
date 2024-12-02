@@ -1,5 +1,6 @@
 ---
 uid: DataMiner_user_permissions
+description: With the user permissions in the Cube System Center, you can fine-tune which users and groups have access to specific DataMiner functionality.
 ---
 
 # DataMiner user permissions
@@ -941,6 +942,10 @@ Available from DataMiner 10.2.0/10.1.12 onwards. Permission to add or edit servi
 #### Modules \> Services \> Instances \> Delete
 
 Available from DataMiner 10.2.0/10.1.12 onwards. Permission to delete profile instances.
+
+#### Modules \> Swarming
+
+Available from DataMiner 10.5.1/10.6.0 onwards.<!-- RN 41490 --> Permission to trigger [swarming](xref:Swarming).
 
 ### Modules \> System configuration \> Agents
 
