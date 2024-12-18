@@ -51,7 +51,7 @@ The Edit Job panel can be accessed from the [Job](#job-view) or [Resource](#reso
   - **Manual start** (Confirmed): When the event needs to start immediately, you can use this action to move the start time to now. This will change the job state to running.
   - **Stop early** (Running): When the event needs to stop immediately, you can use this action to trigger the stop actions. This will change the job state to Confirmed.
   - **Finalize cost & billing** (Completed): This action will only be possible if an organization and contract has been defined in the Administration section. This will change the job state to Ready For Invoice.
-  - **Set to invoiced** (Ready For Invoice): Once the job has been invoiced you can mark this on the job by pushing this button. This will chang the state of the job to Invoiced.
+  - **Set to invoiced** (Ready For Invoice): Once the job has been invoiced you can mark this on the job by pushing this button. This will change the state of the job to Invoiced.
 - **Related**: Contains all related/linked objects to the job. New links can be added by clicking the 'Add Link' button. New types can be added from the [Apps Configuration](#apps-configuration) page.
 - **Administration**: This section provides information to which organization the job can be billed. The billing depends on the [contract](xref:MO_CB_Contracts) selected.
 - **Nodes**: Provides a list view of all nodes in the job. Resources or resource pools can be added from this section through the 'Add Resource' button.
