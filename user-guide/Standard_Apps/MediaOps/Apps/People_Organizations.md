@@ -19,3 +19,17 @@ The People & Organizations app consists of four main pages:
 - ![Organizations overview](~/user-guide/images/PO_Organizations_Overview.png) **Organizations overview**: This page helps you [manage all organizations](xref:PO_Managing_Organizations) within your system. Here, you can [add new organizations](xref:PO_Managing_Organizations#adding-a-new-organization), and [edit](xref:PO_Managing_Organizations#editing-an-organization) or [deprecate](xref:PO_Managing_Organizations#deprecating-an-organization) existing ones. You can also efficiently [add or remove organization members](xref:PO_Managing_Organizations#configuring-organization-members). Use the [search functionality](xref:PO_Managing_Organizations#searching-within-the-list-of-organizations) to locate specific organizations quickly, and [assign specific categories](xref:PO_Managing_Organizations#managing-organization-categories) to the available organizations.
 
 - ![About](~/user-guide/images/PO_About.png) **About**: The *About* page displays an overview of important app info.
+
+## People
+People can be created to store administrative data on them like contact information, skills and org chart information. The People that are created in the People & Organizations app will show up in different places throughout other DataMiner apps:
+* As contact persons in the Scheduling app
+* As bookable resources in the Resource Studio, Scheduling and Workflow apps
+
+## Organizations
+Every person created in the app can be part of up to one Organization. An organization represents another company in your supply chain, like customers, suppliers or partners. 
+
+
+## Teams
+Teams are used to group together a number of people. They can be converted into pools of bookable people resources that will show up in the resource studio, scheduling and workflow designer apps. People from different organizations can be part of the same team.
+
+
