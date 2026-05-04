@@ -69,6 +69,6 @@ Orchestration events for MediaOps Live are now executed asynchronously. This can
 
 On the About pages of the MediaOps Plan apps, version information has been added about the loaded libraries in SLAutomation. This can be helpful as SLAutomation does not reload the new libraries after a new MediaOps version is installed, and a restart of SLAutomation is needed in that case.
 
-#### Resource Studio: Default value dropdown not updated after change to discrete values of system property [ID 45442]
+#### Scheduling: Default value dropdown not updated after change to discrete values of system property [ID 45442]
 
 When system properties of type discrete were configured, the dropdown to select the default value was not updated with the newly added or changed discrete values.
