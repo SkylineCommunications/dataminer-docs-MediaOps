@@ -20,7 +20,14 @@ This Feature Release of the DataMiner web applications contains the same new fea
 
 ## New features
 
-*No features have been added yet.*
+#### GQI DxM - Extensions: Retrieving the Culture and Timezone from the Session object [ID 45348]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+Within a GQI extension, it will now be possible to retrieve the *Culture* and *Timezone* from the `Session` object. When the `IGQIOnInit` interface is implemented, the `Session` object is a property of `OnInitInputArgs`.
+
+> [!NOTE]
+> For this new feature to work, the extension needs to be created with the `Skyline.DataMiner.Core.GQI.Extensions` NuGet (version 1.1.0 or above). The feature is not supported when the extension is created using the `SLAnalyticsTypes` API.
 
 ## Changes
 
