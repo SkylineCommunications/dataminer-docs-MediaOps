@@ -30,4 +30,10 @@ uid: General_Main_Release_10.5.0_CU16
 
 ### Fixes
 
-*No fixes have been added yet.*
+#### Elements incorrectly moved to root view after view with service containing those same elements was moved to the view containing the original elements [ID 45286]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.6 -->
+
+When a view that contains a service was moved under another view, elements that were only included in that first view as part of the service, and of which the original element instance existed under the other view, were handled incorrectly. In those cases, the original element instance that already existed under the other view was removed from its original location and placed at the root view.
+
+From now on, the original element instance will remain in its original view and will no longer be moved to the root view in this scenario.
