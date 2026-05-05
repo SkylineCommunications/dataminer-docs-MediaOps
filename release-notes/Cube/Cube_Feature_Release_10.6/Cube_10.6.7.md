@@ -26,7 +26,11 @@ This Feature Release of the DataMiner Cube client application contains the same 
 
 ### Enhancements
 
-*No enhancements have been added yet.*
+#### Settings: Increased responsiveness of the Search box [ID 44956]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+Because of a number of enhancements made to the *Settings* window, the responsiveness of the *Search* box has increased.
 
 ### Fixes
 
