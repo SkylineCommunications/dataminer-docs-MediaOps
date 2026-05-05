@@ -42,6 +42,15 @@ Before you upgrade to this DataMiner version:
 
 ### Enhancements
 
+#### OpenSearch: Enhanced health monitoring [ID 45294]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+<!-- Re-introduction of RN 43951, which was reverted by RN 44647 in 10.6.2 CU1 -->
+
+A number of enhancements have been made with regard to health monitoring of OpenSearch databases.
+
+Also, all logging with regard to OpenSearch health monitoring can now be found in *SLSearchHealth.txt*. Up to now, that logging was added to *SLCassandraHealth.txt*.
+
 #### DxMs upgraded [ID 45392]
 
 <!-- RN 45392: MR 10.7.0 - FR 10.6.7 -->

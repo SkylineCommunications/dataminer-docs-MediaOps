@@ -37,4 +37,10 @@ The DataMiner Web Services API v0 was declared End of Life in DataMiner version 
 
 ### Fixes
 
-*No fixes have been added yet.*
+#### Dashboards/Low-Code Apps - Interactive automation scripts: Redesigned controls would incorrectly not allow you to use the arrow keys to move the cursor [ID 45313]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+When, in a dashboard or a low-code app, an interactive automation script was launched in a popup window, the redesigned controls would incorrectly not allow you to use the arrow keys to move the cursor.
+
+For example, when you pressed the *Up*/*Down* arrow in a multi-line textbox, the cursor would incorrectly not move to the previous/next line.

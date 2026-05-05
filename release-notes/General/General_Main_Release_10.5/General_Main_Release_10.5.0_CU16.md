@@ -26,7 +26,14 @@ uid: General_Main_Release_10.5.0_CU16
 
 ### Enhancements
 
-*No enhancements have been added yet.*
+#### OpenSearch: Enhanced health monitoring [ID 45294]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+<!-- Re-introduction of RN 43951, which was reverted by RN 44647 in 10.6.2 CU1 -->
+
+A number of enhancements have been made with regard to health monitoring of OpenSearch databases.
+
+Also, all logging with regard to OpenSearch health monitoring can now be found in *SLSearchHealth.txt*. Up to now, that logging was added to *SLCassandraHealth.txt*.
 
 ### Fixes
 
