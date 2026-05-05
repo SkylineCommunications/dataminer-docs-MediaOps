@@ -427,3 +427,9 @@ From now on, the original element instance will remain in its original view and 
 <!-- MR 10.5.0 [CU15] / 10.6.0 [CU3] - FR 10.6.6 -->
 
 Up to now, the first time a newly installed DataMiner Agent was upgraded, an incorrect .NET 6 error would be thrown during the upgrade process.
+
+#### SLAutomation could stop working when recompiling libraries [ID 45436]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.6 [CU0] -->
+
+Up to now, in some cases, SLAutomation could stop working when recompiling libraries.
