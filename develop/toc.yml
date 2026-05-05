@@ -6,8 +6,6 @@ items:
     items:
     - name: Getting started
       topicUid: Getting_started_with_data_source_integrations
-    - name: About DataMiner connectors
-      topicUid: About_DataMiner_connectors
     - name: Metadata
       topicUid: Metadata
       items:
