@@ -16,7 +16,14 @@ This Feature Release of the DataMiner web applications contains the same new fea
 
 ## Highlights
 
-*No highlights have been selected yet.*
+#### DataMiner Web Services API v0 has now been removed [ID 45387]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+The DataMiner Web Services API v0 was declared End of Life in DataMiner version 10.1.5. It has now been removed from the code base.
+
+> [!IMPORTANT]
+> It will no longer be possible to enable the v0 interface by setting the `enableLegacyV0Interface` key to true in the `C:\Skyline DataMiner\Webpages\API\Web.config` file.
 
 ## New features
 
