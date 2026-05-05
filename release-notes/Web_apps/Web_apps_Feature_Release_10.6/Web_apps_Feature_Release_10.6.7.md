@@ -33,6 +33,12 @@ Within a GQI extension, it will now be possible to retrieve the *Culture* and *T
 
 ### Enhancements
 
+#### Low-Code Apps: Enhanced performance when loading pages and panels [ID 45365]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+Because of a number of enhancements, overall performance has increased when loading pages and panels of low-code apps.
+
 #### DataMiner Web Services API v0 has now been removed [ID 45387]
 
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
