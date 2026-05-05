@@ -33,7 +33,7 @@ To use the SLLogCollector tool:
 
      If this checkbox is selected, or in earlier DataMiner versions starting from DataMiner 10.3.3/10.4.0<!-- RN 35436 -->, each time the *SLLogCollector* tool is run, it will order the [*Standalone BPA Executor* tool](xref:Standalone_BPA_Executor) to execute BPA tests:
 
-     - From DataMiner 10.6.6/10.7.0 onwards<!--RN 45226-->, only the BPA tests deployed by default are rerun when a log package is created.
+     - From DataMiner 10.6.6/10.7.0 onwards<!--RN 45228-->, only the BPA tests deployed by default are rerun when a log package is created.
 
      - Prior to DataMiner 10.6.6/10.7.0, all BPA tests available in the system are rerun.
 
@@ -85,7 +85,7 @@ SL_LogCollector.exe -c -h
 > [!NOTE]
 > By default (from DataMiner 10.3.3/10.4.0 onwards<!-- RN 35436 -->), each time the *SLLogCollector* tool is run, it will order the [*Standalone BPA Executor* tool](xref:Standalone_BPA_Executor) to execute BPA tests:
 >
-> - From DataMiner 10.6.6/10.7.0 onwards<!--RN 45226-->, only the BPA tests deployed by default are rerun when a log package is created.
+> - From DataMiner 10.6.6/10.7.0 onwards<!--RN 45228-->, only the BPA tests deployed by default are rerun when a log package is created.
 > - Prior to DataMiner 10.6.6/10.7.0, all BPA tests available in the system are rerun.
 >
 > The files containing the test results will have names using the `<BPA Name>_<Date(yyyy-MM-dd_HH)>` format and can be found in the `C:\Skyline DataMiner\Logging\WatchDog\Reports\Pending Reports` folder.
