@@ -327,14 +327,14 @@ When configuring DOM security settings, it is now possible to mark `DomDefinitio
 When you grant *Read* access, users will be able to do the following:
 
 - Read the DOM instances
-- List the DOM instances
+- Retrieve specific fields from the DOM instances
 - Count the DOM instances
 - Receive the events when subscribed to DOM instance changes
 - Retrieve DOM attachments linked to DOM instances
 - Read the DOM instance history
 - Count the DOM instance history records
 
-When you grant *Write* access, users will be able to do the following:
+When you grant *Write* access, by default, users will be able to do the following when the below-mentioned `ReadOnly` property has not been enabled:
 
 - Create, update, or delete DOM instances
 - Add or remove DOM attachments to a DOM instance
