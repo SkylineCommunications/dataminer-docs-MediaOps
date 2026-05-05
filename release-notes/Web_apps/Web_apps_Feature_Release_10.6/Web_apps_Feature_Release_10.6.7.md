@@ -57,3 +57,9 @@ The DataMiner Web Services API v0 was declared End of Life in DataMiner version 
 When, in a dashboard or a low-code app, an interactive automation script was launched in a popup window, the redesigned controls would incorrectly not allow you to use the arrow keys to move the cursor.
 
 For example, when you pressed the *Up*/*Down* arrow in a multi-line textbox, the cursor would incorrectly not move to the previous/next line.
+
+#### Monitoring app: List of available pages in an element card would incorrectly include a 'Dashboards' page when the LegacyReportsAndDashboards option was disabled [ID 45420]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+In the *Monitoring* app, up to now, the list of available pages in an element card would incorrectly include a *Dashboards* page when the *LegacyReportsAndDashboards* soft-launch option was disabled.
