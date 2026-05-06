@@ -58,6 +58,14 @@ When, in a dashboard or a low-code app, an interactive automation script was lau
 
 For example, when you pressed the *Up*/*Down* arrow in a multi-line textbox, the cursor would incorrectly not move to the previous/next line.
 
+#### Dashboards/Low-Code Apps: Problem with 'Data used in ...' sections [ID 45373]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+When you open a dashboard or a low-code app, the *Data used in dashboard/page/panel* section of the *Data* pane will list all data items used in the dashboard or low-code app page or panel, such as data sources, filters, and more, and when you select a particular component, the *Data used in component* section of the *Data* pane will list all data items used in the currently selected component.
+
+However, up to now, because of a filtering issue, in some cases, these sections would not list the correct data items.
+
 #### Monitoring app: List of available pages in an element card would incorrectly include a 'Dashboards' page when the LegacyReportsAndDashboards option was disabled [ID 45420]
 
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
