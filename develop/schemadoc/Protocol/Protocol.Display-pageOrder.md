@@ -45,7 +45,7 @@ The following placeholders can be used:
 > [!IMPORTANT]
 >
 > - The web request is sent from the Cube client machine, not from the DMA. The device web page must therefore be reachable from the client machine.
-> - **Replicated elements**: Web interface pages that use the `[Polling IP]` placeholder will fail to load on replicated elements, because the polling IP is not available on those elements. As a workaround, use the `[id:ParameterID]` placeholder instead, with a parameter that has *RTDisplay* set to *true* and stores the polling IP.
+> - **Replicated elements**: Web interface pages that use the `[Polling IP]` placeholder will fail to load on replicated elements, because the polling IP is not available on those elements. As a workaround, use the `[id:ParameterID]` placeholder instead, with a parameter that has *RTDisplay* set to *true* and that stores the polling IP.
 
 ### Custom order for EPM integration data pages
 
