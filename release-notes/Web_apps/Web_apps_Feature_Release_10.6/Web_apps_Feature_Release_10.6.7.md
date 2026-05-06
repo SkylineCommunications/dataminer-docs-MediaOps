@@ -84,6 +84,14 @@ When a *Get resources* query filtered by resource pool ID or booking ID was link
 
 From now on, no error will be thrown anymore. Instead, an empty result will be shown.
 
+#### Dashboards/Low-Code Apps - Query builder: Resolving the join columns of a query would fail when the URL included the 'showAdvancedSettings=true' option [ID 45397]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+When you edited an existing query containing a join, up to now, resolving the join columns would fail when the URL included the `showAdvancedSettings=true` option.
+
+The query builder would incorrectly consider non-mandatory options (e.g., *Row by row* and *Prefetch*) without a value as unresolved, causing the join node to remain expanded and preventing all downstream nodes from loading.
+
 #### Monitoring app: List of available pages in an element card would incorrectly include a 'Dashboards' page when the LegacyReportsAndDashboards option was disabled [ID 45420]
 
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
