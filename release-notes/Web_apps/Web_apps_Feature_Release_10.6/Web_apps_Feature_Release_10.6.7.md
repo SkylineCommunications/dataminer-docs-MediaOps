@@ -66,6 +66,16 @@ When you open a dashboard or a low-code app, the *Data used in dashboard/page/pa
 
 However, up to now, because of a filtering issue, in some cases, these sections would not list the correct data items.
 
+#### Dashboards/Low-Code Apps: Conditions with unknown columns would incorrectly not be shown in the template editor [ID 45379]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+In some cases, conditions with unknown columns would not be shown in the template editor. As a result, they could not be edited or removed.
+
+This would often happen when a template from another component had been applied using the *Browse templates* window.
+
+From now on, whenever an unknown column is detected, it will be marked as such, and the condition will be shown correctly in the template editor.
+
 #### Monitoring app: List of available pages in an element card would incorrectly include a 'Dashboards' page when the LegacyReportsAndDashboards option was disabled [ID 45420]
 
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
