@@ -48,6 +48,14 @@ The DataMiner Web Services API v0 was declared End of Life in DataMiner version 
 > [!IMPORTANT]
 > It will no longer be possible to enable the v0 interface by setting the `enableLegacyV0Interface` key to true in the `C:\Skyline DataMiner\Webpages\API\Web.config` file.
 
+#### Dashboards/Low-Code Apps: Spectrum analyzer component will now behave exactly like its counterpart in DataMiner Cube [ID 45401]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+From now on, the *Spectrum analyzer* component will behave exactly like its counterpart in DataMiner Cube.
+
+Up to now, when you selected a new measurement point, the `maxHold` value would incorrectly not be reset. From now on, selecting a new measurement point will reset the `maxHold`, `minHold`, and `avgTrace` values.
+
 ### Fixes
 
 #### Dashboards/Low-Code Apps - Interactive automation scripts: Redesigned controls would incorrectly not allow you to use the arrow keys to move the cursor [ID 45313]
