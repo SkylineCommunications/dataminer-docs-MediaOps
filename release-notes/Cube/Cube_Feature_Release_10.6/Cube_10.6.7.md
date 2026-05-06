@@ -47,3 +47,11 @@ Because of a problem with the recursive loop detection mechanism, in some cases,
 When you are adding elements to a service using the element selector, a filter box allows you to narrow down the number of elements listed in that selector. Since the most recent redesign of the DataMiner Cube UI, part of that filter box would incorrectly be cut off.
 
 This same issue would also occur when adding primary and backup elements to a redundancy group, when creating an alarm filter in the Alarm Console, and when assigning elements to a connector.
+
+#### Correlation module: 'Add action' and 'Add option' controls got an incorrect color when clicked [ID 45382]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+When, while configuring a correlation rule, you clicked *Add action* or *Add option*, the control got an incorrect, dark color.
+
+From now on, when you click either of these controls, their color will be in line with that of all the other controls.
