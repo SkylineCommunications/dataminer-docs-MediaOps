@@ -10,16 +10,18 @@ uid: DIS_3.1
 
 #### IDE
 
-##### Version History Editor - Attribute introducedIn addition [ID 45242]
+##### Version history editor: Fix tag now supports the new introducedIn attribute [ID 45242]
 
-Support of the new attribute introducedIn on the Fix tag within the MinorVersion changes.
-This feature will read out the new attribute and make sure to not remove it during apply changes.
+Within the `MinorVersion` changes, the `Fix` tag now supports the new `introducedIn` attribute.
 
-Note: The version history editor currently does not yet display this attribute.
+From now on, this new attribute will be read and will not be removed when changes are applied.
 
-##### DIS Snippets - Remove Info tag from Alarm snippet [ID 45482]
+> [!NOTE]
+> Currently, the version history editor does not yet display this attribute.
 
-The Info XML element from Alarm XML snippet in DIS.
+##### DIS snippets: Info tag removed from Alarm snippet [ID 45482]
+
+The `Info` tag has now been removed from the Alarm snippet.
 
 ##### Updated DIS dependencies
 
@@ -42,18 +44,17 @@ The Info XML element from Alarm XML snippet in DIS.
 
 ##### Fixed false positive DevPack NuGet info bar [ID 45269]
 
-The DIS info bar that verifies whether projects use the DevPack NuGet package could generate a false positive for test projects that do not have "tests" in the project name.
+Up to now, the *DIS* info bar, which verifies whether projects use the *DevPack* NuGet package, could generate a false positive for test projects that do not have "tests" in the project name.
 
-The implementation of the info bar logic has been adapted: If the .csproj file does not contain linking info (which is typically the case for QAction and C# exe blocks) and it could not determine that the project is a test project, the info bar will now disregard the project from further evaluation.
+The info bar logic has now been adapted. The info bar will now stop evaluating the project when the `.csproj` file does not contain linking info (which is typically the case for QAction and C# exe blocks), and when it could not determine that the project is a test project.
 
 Also, the logic to determine whether a project is a test project has been extended.
 
-##### Fixed false positive DevPack NuGet info bar [ID 45000]
+##### Visual Studio IDE could get stuck when a .dmapp package was being created via the dotnet CLI [ID 45000]
 
-In some cases, the Visual Studio IDE could get stuck on the overlay "compile package..." when trying to publish a solution to DataMiner via the publish button:
-In the background, DIS spawns a new process that executes the dotnet build command with the DmappCreation target.  On some systems, the WaitForExit call could get stuck waiting on the EOF of the standard output stream to be received which did not enter.
+Up to now, in some cases, the Visual Studio IDE could get stuck on the *Compile package...* overlay while trying to publish a solution to DataMiner via the *Publish* button.
 
-To avoid getting stuck, DIS now uses the WaitForExit overload that accepts a timeout which does not wait on the EOF of the redirected output streams.
+In the background, DIS spawns a new process that executes the `dotnet build` command with the `DmappCreation` target. On some systems, the `WaitForExit` call could get stuck while waiting for the EOF of the standard output stream, which did not enter. To avoid getting stuck, DIS will now use the `WaitForExit` overload that accepts a timeout that does not wait for the EOF of the redirected output streams.
 
 ## DIS 3.1.21
 
