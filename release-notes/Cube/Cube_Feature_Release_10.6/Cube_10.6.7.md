@@ -39,3 +39,11 @@ Because of a number of enhancements made to the *Settings* window, the responsiv
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
 
 Because of a problem with the recursive loop detection mechanism, in some cases, a recursive loop in nested correlated alarms could still cause DataMiner Cube to stop working unexpectedly.
+
+#### Services: Problem with element selector filter box [ID 45378]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+When you are adding elements to a service using the element selector, a filter box allows you to narrow down the number of elements listed in that selector.
+
+Since the most recent redesign of the DataMiner Cube UI, part of that filter box would incorrectly be cut off.
