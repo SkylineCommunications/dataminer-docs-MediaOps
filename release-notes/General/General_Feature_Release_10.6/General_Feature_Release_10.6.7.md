@@ -51,6 +51,12 @@ A number of enhancements have been made with regard to health monitoring of Open
 
 Also, all logging with regard to OpenSearch health monitoring can now be found in *SLSearchHealth.txt*. Up to now, that logging was added to *SLCassandraHealth.txt*.
 
+#### SLAnalytics: Enhanced performance when detecting flatline events [ID 45376]
+
+<!-- MR 10.7.0 - FR 10.6.7 -->
+
+Because of a number of enhancements, overall performance has increased when detecting flatline events, especially on systems with a large number of monitored parameters.
+
 #### DxMs upgraded [ID 45392]
 
 <!-- RN 45392: MR 10.7.0 - FR 10.6.7 -->
