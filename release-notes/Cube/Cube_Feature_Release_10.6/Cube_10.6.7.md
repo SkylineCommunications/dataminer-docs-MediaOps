@@ -34,4 +34,8 @@ Because of a number of enhancements made to the *Settings* window, the responsiv
 
 ### Fixes
 
-*No fixes have been added yet.*
+#### Alarm Console: Problem when detecting recursive loops in nested correlation alarms [ID 45372]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+Because of a problem with the recursive loop detection mechanism, in some cases, a recursive loop in nested correlated alarms could still cause DataMiner Cube to stop working unexpectedly.
