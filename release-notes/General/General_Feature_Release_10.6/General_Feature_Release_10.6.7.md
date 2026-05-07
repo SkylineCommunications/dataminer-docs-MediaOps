@@ -85,4 +85,8 @@ For detailed information about the changes included in those versions, refer to 
 
 ### Fixes
 
-*No fixes have been added yet.*
+#### SLDataGateway would stop unexpectedly when shutting down [ID 45419]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+In some cases, SLDataGateway would stop unexpectedly when shutting down.

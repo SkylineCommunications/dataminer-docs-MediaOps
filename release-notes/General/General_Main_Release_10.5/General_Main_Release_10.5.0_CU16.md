@@ -53,6 +53,12 @@ When a view that contains a service was moved under another view, elements that 
 
 From now on, the original element instance will remain in its original view and will no longer be moved to the root view in this scenario.
 
+#### SLDataGateway would stop unexpectedly when shutting down [ID 45419]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+In some cases, SLDataGateway would stop unexpectedly when shutting down.
+
 #### SLAutomation could stop working when recompiling libraries [ID 45436]
 
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.6 [CU0] -->
