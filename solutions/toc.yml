@@ -78,10 +78,6 @@ items:
             topicUid: MO_Development_Personalizing_Apps
           - name: Interacting with MediaOps using code
             topicUid: MO_Development_Interacting_with_Code
-        - name: Permissions
-          items:
-          - name: User Permissions
-            topicUid: MO_Requirements_Permissions
       - name: Live
         topicUid: MediaOps.Live
         items:
