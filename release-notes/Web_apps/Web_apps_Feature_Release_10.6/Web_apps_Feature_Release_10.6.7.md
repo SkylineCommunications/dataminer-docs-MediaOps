@@ -100,6 +100,14 @@ When you edited an existing query containing a join, up to now, resolving the jo
 
 The query builder would incorrectly consider non-mandatory options (e.g., *Row by row* and *Prefetch*) without a value as unresolved, causing the join node to remain expanded and preventing all downstream nodes from loading.
 
+#### Dashboards/Low-Code Apps: Spectrum analyzer component would either show no trace or an incorrect trace [ID 45410]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+When a *Spectrum analyzer* component in a dashboard or a low-code app loaded a spectrum preset when no measurement point had been selected, up to now, SLSpectrum would be unable to convert the display frequencies into device frequencies. As a result, the start/stop frequencies would appear out of range, no values would be sent to the connector, and either no trace or an incorrect trace would be displayed.
+
+From now on, when no measurement point was selected, SLSpectrum will apply the measurement point stored in the preset before processing frequency values. This will ensure that the correct frequency offset context is available, and that display frequencies are properly converted into device frequencies.
+
 #### Monitoring app: List of available pages in an element card would incorrectly include a 'Dashboards' page when the LegacyReportsAndDashboards option was disabled [ID 45420]
 
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
