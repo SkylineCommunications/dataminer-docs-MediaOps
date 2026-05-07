@@ -89,6 +89,12 @@ For detailed information about the changes included in those versions, refer to 
 
 From now on, SLLogCollector will collect the system environment variables and store them in the `Windows\SystemEnvironmentVariables.txt` file.
 
+#### VerifyNatsCluster prerequisite: Enhanced performance [ID 45475]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+Because of a number of enhancements, overall performance of the VerifyNatsCluster prerequisite has increased.
+
 ### Fixes
 
 #### SLDataGateway would terminate unexpectedly when shutting down [ID 45419]
