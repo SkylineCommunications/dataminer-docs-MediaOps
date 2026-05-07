@@ -133,3 +133,11 @@ Up to now, when you changed the type of a variable that did not have a default v
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
 
 In the *Monitoring* app, up to now, the list of available pages in an element card would incorrectly include a *Dashboards* page when the *LegacyReportsAndDashboards* soft-launch option was disabled.
+
+#### Web apps: Inconsistencies and missing properties in manifest files [ID 45424]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+In the manifest files of the DataMiner web apps, a number of inconsistencies have been fixed and a number of missing properties have been added.
+
+From now on, all web apps will use the same theme colors and the correct icons. Also, it will be possible to install all of them as Progressive Web Apps (PWAs).
