@@ -32,6 +32,14 @@ This Feature Release of the DataMiner Cube client application contains the same 
 
 Because of a number of enhancements made to the *Settings* window, the responsiveness of the *Search* box has increased.
 
+#### System Center: Upgrade window now also lists the upgrade packages that are made available via the Orchestrator DxM [ID 45227]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+From now on, the *Upgrade* window will also list the upgrade packages that are made available via the Orchestrator DxM, which is responsible for management and upgrades of DxMs through the Admin app.
+
+Performing an upgrade with a package made available via the Orchestrator will avoid having to upload it from the client.
+
 ### Fixes
 
 #### Alarm Console: Problem when detecting recursive loops in nested correlation alarms [ID 45372]
