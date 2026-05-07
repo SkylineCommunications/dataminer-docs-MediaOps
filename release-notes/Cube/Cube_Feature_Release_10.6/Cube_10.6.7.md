@@ -63,3 +63,15 @@ This same issue would also occur when adding primary and backup elements to a re
 When, while configuring a correlation rule, you clicked *Add action* or *Add option*, the control got an incorrect, dark color.
 
 From now on, when you click either of these controls, their color will be in line with that of all the other controls.
+
+#### Router Control: Problem with crosspoint highlighting since Cube UI redesign in version 10.6.4 [ID 45412]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+Since the Cube UI was redesigned in version 10.6.4, the crosspoint highlighting in the Router Control module would no longer work.
+
+From now on, when you click a crosspoint, the following items will again be highlighted as before:
+
+- the tabs containing the input and the output
+- the *I/O* button
+- the *Lock/Unlock* button when the crosspoint is locked
