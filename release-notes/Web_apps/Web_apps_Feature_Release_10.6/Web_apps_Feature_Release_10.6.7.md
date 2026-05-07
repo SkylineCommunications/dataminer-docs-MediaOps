@@ -108,6 +108,12 @@ When a *Spectrum analyzer* component in a dashboard or a low-code app loaded a s
 
 From now on, when no measurement point was selected, SLSpectrum will apply the measurement point stored in the preset before processing frequency values. This will ensure that the correct frequency offset context is available, and that display frequencies are properly converted into device frequencies.
 
+#### Web apps opened via remote access would not be able to retrieve the manifest file [ID 45416]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+Up to now, when a DataMiner web app was opened via remote access, it would fail to retrieve the manifest file. As a result, the app would not be considered a Progressive Web App (PWA) and would not be allowed to install locally.
+
 #### Monitoring app: List of available pages in an element card would incorrectly include a 'Dashboards' page when the LegacyReportsAndDashboards option was disabled [ID 45420]
 
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
