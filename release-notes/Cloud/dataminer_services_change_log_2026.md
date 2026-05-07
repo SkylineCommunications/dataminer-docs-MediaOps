@@ -9,9 +9,9 @@ The dataminer.services platform gets updated continuously. This change log can h
 > [!NOTE]
 > Many features on dataminer.services are dependent on DxMs. You can find the change logs for these under [DxM release notes](xref:DxM_RNs_index).
 
-### 7 May 2026 - Enhancement - Billing - Billing overview now shows services table at unit level
+### 7 May 2026 - Enhancement - Admin - Billing overview now shows services table at unit level
 
-On the Billing overview page, the services table now shows data at unit level instead of capping out at service level, giving users a deeper insight into what is affecting their billing the most.
+On the Billing overview page in the Admin app, the services table now shows data at unit level instead of capping out at service level, giving users a deeper insight into what is affecting their billing the most.
 
 ### 5 May 2026 - New feature - Admin - Draft subscriptions
 
