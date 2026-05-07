@@ -114,6 +114,12 @@ From now on, when no measurement point was selected, SLSpectrum will apply the m
 
 Up to now, when a DataMiner web app was opened via remote access, it would fail to retrieve the manifest file. As a result, the app would not be considered a Progressive Web App (PWA) and would not be allowed to install locally.
 
+#### Low-Code Apps: Changing the type of a variable without default value would incorrectly not be saved [ID 45417]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+Up to now, when you changed the type of a variable that did not have a default value, the update would incorrectly not be saved.
+
 #### Monitoring app: List of available pages in an element card would incorrectly include a 'Dashboards' page when the LegacyReportsAndDashboards option was disabled [ID 45420]
 
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
