@@ -56,6 +56,14 @@ From now on, the *Spectrum analyzer* component will behave more like its counter
 
 Up to now, when you selected a new measurement point, the `maxHold` value would incorrectly not be reset. From now on, selecting a new measurement point will reset the `maxHold`, `minHold`, and `avgTrace` values.
 
+#### Dashboards/Low-Code Apps - Web component: 'Open in sandbox' setting renamed to 'Isolate' and now also available when 'Type' is set to 'Custom HTML' [ID 45422]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+Up to now, when configuring a *Web* component, it would only be possible to enable or disable the *Open in sandbox* setting when *Type* was set to "Webpage".
+
+From now on, it will also be possible to enable or disable this setting, which has now been renamed to *Isolate*, when *Type* is set to "Custom HTML".
+
 ### Fixes
 
 #### Dashboards/Low-Code Apps - Interactive automation scripts: Redesigned controls would incorrectly not allow you to use the arrow keys to move the cursor [ID 45313]
