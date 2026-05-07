@@ -59,6 +59,12 @@ From now on, the original element instance will remain in its original view and 
 
 In some cases, SLDataGateway would stop unexpectedly when shutting down.
 
+#### DataMiner upgrades could get stuck while running 'Register DataMiner as Service.bat' [ID 45426]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+In some rare cases, a DataMiner upgrade could get stuck while running the `C:\Skyline DataMiner\Tools\Register DataMiner as Service.bat` file.
+
 #### SLAutomation could stop working when recompiling libraries [ID 45436]
 
 <!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.6 [CU0] -->
