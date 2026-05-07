@@ -83,6 +83,12 @@ The following DataMiner Extension Modules (DxMs), which are included in the Data
 
 For detailed information about the changes included in those versions, refer to the [DxM release notes](xref:DxM_RNs_index).
 
+#### SLLogCollector will now collect the system environment variables [ID 45435]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+From now on, SLLogCollector will collect the system environment variables and store them in the `Windows\SystemEnvironmentVariables.txt` file.
+
 ### Fixes
 
 #### SLDataGateway would terminate unexpectedly when shutting down [ID 45419]

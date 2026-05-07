@@ -51,6 +51,12 @@ When DataMiner Cube requests timeline data using a `GetReportTimeLineDataMessage
 
 From now on, when a DataMiner Agent receives a timeline data request, it will first translate the primary key to the display key before returning the requested data.
 
+#### SLLogCollector will now collect the system environment variables [ID 45435]
+
+<!-- MR 10.5.0 [CU16] / 10.6.0 [CU4] - FR 10.6.7 -->
+
+From now on, SLLogCollector will collect the system environment variables and store them in the `Windows\SystemEnvironmentVariables.txt` file.
+
 ### Fixes
 
 #### Elements incorrectly moved to root view after view with service containing those same elements was moved to the view containing the original elements [ID 45286]
