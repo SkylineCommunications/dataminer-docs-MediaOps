@@ -58,3 +58,27 @@ Migration and cleanup actions are defined in the install package and will depend
 
 > [!IMPORTANT]
 > When upgrading MediaOps.Plan, to make sure all migration and cleanup actions take place, **first upgrade to the latest version of your current major version** before moving to the next major version, without skipping a major version.
+
+## User Permissions
+
+A user working with MediaOps Plan needs the following **user permissions**:
+
+### Rights
+
+- [General > DataMiner web apps](xref:DataMiner_user_permissions#general--dataminer-web-apps)
+- [General > Elements > Access](xref:DataMiner_user_permissions#general--elements--access)
+- [General > Elements > Data Display > Access](xref:DataMiner_user_permissions#general--elements--data-display--access)
+- [Modules > Automation > Execute](xref:DataMiner_user_permissions#modules--automation--execute)
+- [Modules > Bookings](xref:DataMiner_user_permissions#modules--bookings)
+- [Modules > Profiles > UI available](xref:DataMiner_user_permissions#modules--profiles--ui-available)
+- [Modules > Profiles > All except instances > Add/Edit](xref:DataMiner_user_permissions#modules--profiles--all-except-instances--addedit)
+- [Modules > Profiles > All except instances > Delete](xref:DataMiner_user_permissions#modules--profiles--all-except-instances--delete)
+- [Modules > Resources](xref:DataMiner_user_permissions#modules--resources)
+- [Modules > Scheduler](xref:DataMiner_user_permissions#modules--scheduler)
+- [Modules > Services > UI available](xref:DataMiner_user_permissions#modules--services--ui-available)
+- [Modules > User-definable apps > View apps](xref:DataMiner_user_permissions#modules--user-definable-apps--view-apps)
+
+### Views
+
+- Root View > DataMiner Catalog > MediaOps Plan View
+- Root View > DataMiner Catalog > People and Organizations
